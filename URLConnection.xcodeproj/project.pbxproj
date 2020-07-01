@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		249819FF2472CDBC00993F8C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		24DB2C4A247270C20012A971 /* Tong_URLConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tong_URLConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DB2C4A247270C20012A971 /* URLConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DB2C4D247270C20012A971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24DB2C4F247270C20012A971 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		24DB2C51247270C20012A971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		24DB2C41247270C20012A971 = {
 			isa = PBXGroup;
 			children = (
-				24DB2C4C247270C20012A971 /* Tong_URLConnection */,
+				24DB2C4C247270C20012A971 /* URLConnection */,
 				24DB2C4B247270C20012A971 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		24DB2C4B247270C20012A971 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24DB2C4A247270C20012A971 /* Tong_URLConnection.app */,
+				24DB2C4A247270C20012A971 /* URLConnection.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24DB2C4C247270C20012A971 /* Tong_URLConnection */ = {
+		24DB2C4C247270C20012A971 /* URLConnection */ = {
 			isa = PBXGroup;
 			children = (
 				24DB2C65247271660012A971 /* Common */,
@@ -64,7 +64,7 @@
 				24DB2C622472713B0012A971 /* Controller */,
 				24DB2C61247271270012A971 /* SupportFile */,
 			);
-			path = Tong_URLConnection;
+			path = URLConnection;
 			sourceTree = "<group>";
 		};
 		24DB2C61247271270012A971 /* SupportFile */ = {
@@ -113,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24DB2C49247270C20012A971 /* Tong_URLConnection */ = {
+		24DB2C49247270C20012A971 /* URLConnection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24DB2C5E247270C50012A971 /* Build configuration list for PBXNativeTarget "Tong_URLConnection" */;
+			buildConfigurationList = 24DB2C5E247270C50012A971 /* Build configuration list for PBXNativeTarget "URLConnection" */;
 			buildPhases = (
 				24DB2C46247270C20012A971 /* Sources */,
 				24DB2C47247270C20012A971 /* Frameworks */,
@@ -125,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = Tong_URLConnection;
+			name = URLConnection;
 			productName = Tong_URLConnection;
-			productReference = 24DB2C4A247270C20012A971 /* Tong_URLConnection.app */;
+			productReference = 24DB2C4A247270C20012A971 /* URLConnection.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24DB2C45247270C20012A971 /* Build configuration list for PBXProject "Tong_URLConnection" */;
+			buildConfigurationList = 24DB2C45247270C20012A971 /* Build configuration list for PBXProject "URLConnection" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24DB2C49247270C20012A971 /* Tong_URLConnection */,
+				24DB2C49247270C20012A971 /* URLConnection */,
 			);
 		};
 /* End PBXProject section */
@@ -329,12 +329,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Tong_URLConnection/SupportFile/Info.plist;
+				INFOPLIST_FILE = URLConnection/SupportFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Tong.storyBoard.Tong-URLConnection";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tong.storyBoard.URLConnection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,12 +346,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Tong_URLConnection/SupportFile/Info.plist;
+				INFOPLIST_FILE = URLConnection/SupportFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Tong.storyBoard.Tong-URLConnection";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tong.storyBoard.URLConnection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -361,7 +361,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24DB2C45247270C20012A971 /* Build configuration list for PBXProject "Tong_URLConnection" */ = {
+		24DB2C45247270C20012A971 /* Build configuration list for PBXProject "URLConnection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24DB2C5C247270C50012A971 /* Debug */,
@@ -370,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24DB2C5E247270C50012A971 /* Build configuration list for PBXNativeTarget "Tong_URLConnection" */ = {
+		24DB2C5E247270C50012A971 /* Build configuration list for PBXNativeTarget "URLConnection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24DB2C5F247270C50012A971 /* Debug */,
